@@ -1,0 +1,18 @@
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@mixin center-x {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+@mixin center-y {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
